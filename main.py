@@ -1,10 +1,7 @@
-def greet(name: str) -> str:
-    return f"Hello, {name}. Welcome to AI Engineer Journey."
+from src.app import run_app
 
 def main():
-    user_name = "Faris"
-    message = greet(user_name)
-    print(message)
+    run_app()
 
 if __name__ == "__main__":
     main()
